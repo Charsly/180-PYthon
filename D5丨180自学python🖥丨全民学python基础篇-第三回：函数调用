@@ -1,0 +1,9 @@
+print(235)
+235
+max(3,8,2,7,4)
+8
+min(3,8,2,7,4)
+2
+import winsound
+winsound.Beep(1000,500)
+winsound.Beep(1500,1000) #windows下有效
