@@ -1,0 +1,26 @@
+import math
+print ( math.log(0.5 * 65 * 3**2 * (1 + 0.13)))
+===
+import winsound
+winsound.Beep(500,1000)
+winsound.Beep(800,1000)
+winsound.Beep(600,500)
+winsound.Beep(1000,1000)
+===
+import math
+import winsound #可以写在beep之前的任何位置，但统一写在代码开头更符合规范
+print ( math.log(0.5 * 65 * 3**2 * (1 + 0.13)))
+winsound.Beep ( int(200 * math.log(0.5 * 65 * 3**2 * (1 + 0.13))),1000)
+===
+import math
+import winsound
+x = math.log(0.5 * 65 * 3**2 * (1 + 0.13))
+print (x)
+winsound.Beep (int(200 * x),1000)
+===
+import math
+import winsound
+power_level = math.log(0.5 * 65 * 3**2 * (1 + 0.13))
+power_level = power_level + 1
+print (power_level)
+winsound.Beep (int(200 * power_level),1000)
