@@ -1,0 +1,85 @@
+r = 3
+
+p = 2 * 3.14 * r
+s = 3.14 * r**2
+v = 3.14 * r**3 * 4 / 3
+
+print (p)
+print (s)
+print (v)
+===
+'''
+多次出现
+以后pi都取值3.14159
+修改三次太麻烦
+而且容易出错
+'''
+PI = 3.14
+r = 3
+p = 2 * PI * r
+s = PI * r**2
+v = PI * r**3 * 4 / 3
+
+print (p)
+print (s)
+print (v)
+===
+import math
+import winsound
+
+power_level = math.log(0.5 * 65 * 3**2 * ( 1 + 0.13 ))
+print(power_level)
+winsound.Beep (int(200 * power_level) , 1000) 
+===
+'''
+只出现一次
+集中一处，便于每次改动
+'''
+import math
+import winsound
+
+weight = 75
+speed = 3
+armor = 0.13
+
+power_level = math.log(0.5 * weight * speed**2 * ( 1 + armor ))
+
+print(power_level)
+
+winsound.Beep (int(200 * power_level) , 1000)
+===
+'''
+增加name变量
+多行输出
+'''
+import math
+import winsound
+
+name = '张三'
+weight = 75
+speed = 3
+armor = 0.13
+
+power_level = math.log(0.5 * weight * speed**2 * ( 1 + armor ))
+
+print(name)
+print('战斗力指数是')
+print(power_level)
+
+winsound.Beep (int(200 * power_level) , 1000)
+===
+# 单行输出
+import math
+import winsound
+
+name = '张三'
+weight = 75
+speed = 3
+armor = 0.13
+
+power_level = math.log(0.5 * weight * speed**2 * ( 1 + armor ))
+
+print(name,'战斗力指数是',power_level)
+
+winsound.Beep (int(200 * power_level) , 1000)
+
