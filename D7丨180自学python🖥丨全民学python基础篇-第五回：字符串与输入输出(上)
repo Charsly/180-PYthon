@@ -83,3 +83,4 @@ print(name,'战斗力指数是',power_level)
 
 winsound.Beep (int(200 * power_level) , 1000)
 
+
