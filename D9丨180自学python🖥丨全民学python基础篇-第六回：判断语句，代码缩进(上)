@@ -1,0 +1,29 @@
+import os
+
+os.system('star d:/test/ 1-抄家伙上.mp3')
+===
+import os
+
+os.system('star d:/test/日记.txt ')
+===
+import os
+
+os.system('star d:/test/demo.py ')
+===
+import math
+import winsound
+import os
+
+name = input('请输入姓名：')
+weight = int(input('请输入体重：'))
+speed = int(input('请输入速度：'))
+armor = float(input('请输入盔甲：'))
+
+power_level = math.log(0.5 * weight * speed**2 * ( 1 + armor ))
+
+print(name,'战斗力指数是',power_level)
+
+if power_level <= 5 :
+    os.system(' d:/test/ 1-抄家伙上.mp3')
+else:
+    os.system(' d:/test/ 2-风紧扯呼.mp3')
