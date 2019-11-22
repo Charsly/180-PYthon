@@ -27,3 +27,4 @@ if power_level <= 5 :
     os.system(' d:/test/ 1-抄家伙上.mp3')
 else:
     os.system(' d:/test/ 2-风紧扯呼.mp3')
+    
