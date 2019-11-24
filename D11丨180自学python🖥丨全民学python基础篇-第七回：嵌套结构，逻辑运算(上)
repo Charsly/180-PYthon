@@ -1,0 +1,99 @@
+house = int(input('请输入房产数量: '))
+
+if house > 5 :
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+elif house > 2 :
+    print('您是我们的优质会员，欢迎加入!')
+elif house ==1 :
+    print('普通会员，典型单身狗！')
+else:
+    print('凑数会员，不必当真!')
+===
+# 错误包含关系
+house = int(input('请输入房产数量: '))
+
+if house > 5 :
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+elif house > 1 :
+    print('您是我们的优质会员，欢迎加入!')
+elif house > 2 :
+    print('普通会员，典型单身狗！')
+else:
+    print('凑数会员，不必当真!')
+===
+house = int(input('请输入房产数量: '))
+
+if house > 5 :
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+elif house > 1 :
+    print('您是我们的优质会员，欢迎加入!')
+elif house > 2 :
+    print('普通会员，典型单身狗！')
+else:
+    gugong = input('请问您是否住在北京故宫?')
+    if gugong == '是':
+         print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+    else:
+    print('凑数会员，不必当真!')
+===
+house = int(input('请输入房产数量: '))
+
+if house > 5 :
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+elif house > 2 :
+    print('您是我们的优质会员，欢迎加入!')
+elif house > 1 :
+    print('普通会员，典型单身狗！')
+else:
+    gugong = input('请问您是否住在北京故宫?')
+    if gugong == '是':
+        if house == 0:
+            print('骗人！你根本没有房子，怎么会住在故宫？')
+        else：
+            print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+    else:
+    print('凑数会员，不必当真!')
+===
+#上面北京有两套房产，仍被判断为单身狗
+# 复杂做法
+house = int(input('请输入房产数量: '))
+
+if house > 5 :
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+elif house > 2 :
+    gugong = input('请问您是否住在北京故宫?')
+    if gugong == '是':
+         print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+    else:
+         print('您是我们的优质会员，欢迎加入!')
+elif house > 1 :
+    gugong = input('请问您是否住在北京故宫?')
+    if gugong == '是':
+         print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+e    else:
+         print('普通会员，典型单身狗！')
+else:
+    gugong = input('请问您是否住在北京故宫?')
+    if gugong == '是':
+         print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+    else:
+         print('凑数会员，不必当真!')
+===
+# 遇到顾客，首先判断住址是否为北京故宫，如果是，直接vip
+
+gugong = input('请问您是否住在北京故宫?')
+
+if gugong == '是':
+    
+    print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+else:
+    house = int(input('请输入房产数量: '))
+
+    if house > 5 :
+        print('尊敬的vip会员，您让鄙站蓬荜生辉!')
+    elif house > 2 :
+        print('您是我们的优质会员，欢迎加入!')
+    elif house ==1 :
+        print('普通会员，典型单身狗！')
+    else:
+        print('凑数会员，不必当真!')
