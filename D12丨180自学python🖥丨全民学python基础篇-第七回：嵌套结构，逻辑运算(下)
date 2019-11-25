@@ -1,0 +1,15 @@
+gender = input('请输入您的性别：')
+age = int(input('请输入您的年龄:'))
+
+if gender == '男' and 25 <= age <= 30 :
+    print('您是适龄男性')
+else:
+    print('您不符合规定')
+===
+gender = input('请输入您的性别：')
+age = int(input('请输入您的年龄:'))
+
+if gender == '女' and age <= 20 or age >= 30 :
+    print('您是符合条件的女性')
+else:
+    print('对不起，您不符合规定')
