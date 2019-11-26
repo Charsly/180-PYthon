@@ -1,0 +1,49 @@
+# 运行报错
+print('欢迎进入会员等级系统，请开始录入')
+
+while s == 'y' :
+
+    house = int(input('请输入房产数量:'))
+
+    if house > 3 :
+        print('高级会员!')
+    else:
+        print('普通会员!')
+        
+    s = input('请问是否继续录入?(y/n)')
+    
+print('程序执行结束!再见!')
+===
+# 正常程序
+print('欢迎进入会员等级系统，请开始录入')
+
+s = 'y'
+
+while s == 'y' :
+
+    house = int(input('请输入房产数量:'))
+
+    if house > 3 :
+        print('高级会员!')
+    else:
+        print('普通会员!')
+        
+    s = input('请问是否继续录入?(y/n)')
+    
+print('程序执行结束!再见!')
+===
+# 死循环
+print('欢迎进入会员等级系统，请开始录入')
+
+s = 'y'
+
+while s == 'y' :
+
+    house = int(input('请输入房产数量:'))
+
+    if house > 3 :
+        print('高级会员!')
+    else:
+        print('普通会员!')
+    
+print('程序执行结束!再见!')
