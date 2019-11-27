@@ -1,0 +1,31 @@
+print('欢迎进入会员等级系统，请开始录入')
+
+s = 'y'
+
+i = 0
+total = 0
+
+while s == 'y' :
+
+    house = int(input('请输入房产数量:'))
+
+    if house > 3 :
+        print('高级会员!')
+    else:
+        print('普通会员!')
+
+    i = i + 1
+    total = total +  house
+        
+    s = input('请问是否继续录入?(y/n)')
+    
+print('本次一共录入了', i ,'个会员，房产总计为', total)
+
+print('程序执行结束!再见!')
+===
+i = 0
+
+while i < 10 :
+
+    print('万伏高压,一触即死,严禁触摸,违者法办')
+    i = i + 1
