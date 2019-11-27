@@ -1,4 +1,6 @@
 # 日志
+### D14丨180自学python🖥丨全民学python基础篇-第八回：while循环(下)
+#### 第八回：while循环(下).pdf
 ### D13丨180自学python🖥丨全民学python基础篇-第八回：while循环(上)
 #### 第八回：while循环(上).pdf
 ### D12丨180自学python🖥丨全民学python基础篇-第七回：嵌套结构，逻辑运算(下)
