@@ -1,4 +1,6 @@
 # 日志
+### D15丨180自学python🖥丨全民学python基础篇-第九回：随机数与break(p1)
+#### 第九回：随机数与break(p1).pdf
 ### D14丨180自学python🖥丨全民学python基础篇-第八回：while循环(下)
 #### 第八回：while循环(下).pdf
 ### D13丨180自学python🖥丨全民学python基础篇-第八回：while循环(上)
