@@ -1,0 +1,20 @@
+import os
+import random
+
+note = random.randint(1,7)
+
+fname = 'd;/demo/notes/' + str(note) + '.wav'
+
+while i ==1 :
+
+    os.system(fname)
+    
+    guess = int( input('请问你刚才听到的是c大调哪个音阶(1-7)?'))
+
+    if guess > note :
+        print('有点高哦，试试低一点的吧！')
+    elif guess < note :
+        print('有点低哦，试试低一点的吧！')
+    else :
+        print('恭喜你答对了')
+        break
