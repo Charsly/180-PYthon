@@ -1,0 +1,11 @@
+a = [350,47.28,'假钞三百'，200，'欠条一张']
+print(a)
+print(a[3])
+print(a[0])
+print(a[9])
+print(a[-1])
+b = a[2:5]
+print(b)
+a[:4]
+a[2:]
+a[:]
