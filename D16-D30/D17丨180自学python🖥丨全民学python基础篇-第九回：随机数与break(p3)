@@ -1,0 +1,15 @@
+import os
+import sleep
+import random
+
+i = 1
+
+while i <=7 :
+
+    i = random.randint(1,7)
+    
+    fname = 'd;/demo/notes/' + str(i) + '.wav'
+    
+    os.system(fname)
+    
+    time.sleep(1/random.randint(1,2))
