@@ -1,0 +1,10 @@
+x = 17
+
+if x > 0 :
+    print('x是正数')
+elif x < 0 :
+    print('x是负数')
+else :
+    print('x是零')
+
+print('判断完毕！')
